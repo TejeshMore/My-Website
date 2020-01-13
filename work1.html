@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+		<link rel="stylesheet" href="css/master.css">
+		<title>T&C Automater</title>
+	</head>
+	<body class="pcss-body">
+		<h3 style="text-align: center;"> </h3>
+		<form id="get-data-form" method="post" class="textAreaContainer">
+
+			<textarea class="tinymce" id="texteditor"></textarea>
+			<div class="formContainer"> 
+				  <input class="inputBox" type="text" id="title" placeholder="Enter title name here..">
+				  <input class="inputBox" type="text" id="filename" placeholder="Ex TnC.html">
+				  <div class="btnContainer"><input type="submit" class="button button2" id =""value="Download">
+				  </div>
+				
+			  </div>
+			
+			
+		</form>
+
+		<div id="data-container">
+		</div>
+
+		<!-- javascript -->
+		<script type="text/javascript" src="js/jquery.min.js"></script>
+		<script type="text/javascript" src="plugin/tinymce/tinymce.min.js"></script>
+		<script type="text/javascript" src="plugin/tinymce/init-tinymce.js"></script>
+		<script type="text/javascript" src="js/getdata.js"></script>
+	</body>
+	<script src="src/FileSaver.js"></script>
+</html>
