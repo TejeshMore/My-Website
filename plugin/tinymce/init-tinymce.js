@@ -9,19 +9,24 @@ tinymce.init({
 	/* width and height of the editor */
 	width: "100%",
 	height: 350,
+	paste_word_valid_elements: "b,strong,i,em,h1,h2",
 	
 	/* display statusbar */
 	statubar: true,
+	content_css: ['//fonts.googleapis.com/css?family=Indie+Flower'],
+	font_formats: 'Arial Black=arial black,avant garde;Indie Flower=indie flower, cursive;Times New Roman=times new roman,times;',
 	
 	/* plugin */
 	plugins: [
-		"advlist autolink link image lists charmap print preview hr anchor pagebreak",
+		"advlist paste autolink link image lists charmap print preview hr anchor pagebreak",
 		"searchreplace wordcount visualblocks visualchars code fullscreen insertdatetime media nonbreaking",
-		"save table contextmenu directionality emoticons template paste textcolor"
+		"save table contextmenu directionality emoticons template  textcolor"
+		// "save",  "contextmenu",  "paste", "textcolor",
+		// "advlist","autolink","nonbreaking",
 	],
 
 	/* toolbar */
-	toolbar: "insertfile undo redo | styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | print preview media fullpage | forecolor backcolor emoticons",
+	toolbar: "insertfile undo redo | fontsizeselect fontselect styleselect | bold italic | alignleft aligncenter alignright alignjustify | bullist numlist outdent indent | link image | print preview media fullpage | forecolor backcolor emoticons",
 	
 	/* style */
 	style_formats: [
