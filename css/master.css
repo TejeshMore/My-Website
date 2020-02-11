@@ -2,7 +2,7 @@
 .inputBox{
   margin-top: 20px;
   height:40px;
-   width:300px;
+   width:200px;
    display: inline-block;
    margin-right: 30px;
    border-radius: 10px;
@@ -10,6 +10,7 @@
    text-align: left;
    /* text-align: center; */
    padding-left: 10px;
+   outline: none;
    
 }
 .formContainer{
@@ -93,7 +94,7 @@ color: #fff ;
   font-size: 2;
 
 }
-,pcss-inline{
+.pcss-inline{
   display: inline-block;
 }
 .pcss-my-image-slider{
