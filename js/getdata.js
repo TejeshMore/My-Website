@@ -164,9 +164,9 @@ $(document).ready(function(){
 '           	 <!-- accordian Start -->'+
 '    <div class="row">'+
 '      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" style="margin-top:20px;">'+
-'        <h1>';
+'        <h3>';
 var middleWrap2 =	
-'Terms And conditions</h1><br/>'+
+'</h3><br/>'+
 '     </div>'+
 '    </div>'+
 '    <div class="about-me-container margin-top-10">'+
