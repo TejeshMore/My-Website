@@ -163,10 +163,10 @@ $(document).ready(function(){
 '           <div class="body-container">'+
 '           	 <!-- accordian Start -->'+
 '    <div class="row">'+
-'      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center" style="margin-top:20px;">'+
-'        <h3>';
+'      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center"">'+
+'        <h3> <strong>';
 var middleWrap2 =	
-'</h3><br/>'+
+'</strong></h3><br/>'+
 '     </div>'+
 '    </div>'+
 '    <div class="about-me-container margin-top-10">'+
