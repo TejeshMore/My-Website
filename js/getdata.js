@@ -15,8 +15,8 @@ $(document).ready(function(){
 '        <link rel="icon" href="assets/images/favicon.ico" type="image/x-icon">'+
 '    	<link rel="icon" href="http://www.jio.com/favicon.ico" type="image/x-icon">'+
 '    	<link rel="canonical" >'+
-'    	<meta name="description" content="Jio Tambola">'+
-'    	<meta name="keywords" content="Jio Tambola">'+
+'    	<meta name="description" content="Jio Tnc">'+
+'    	<meta name="keywords" content="Jio Tnc">'+
 '    	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">'+
 '    	<link rel="stylesheet" href="assets/css/style.min.css">'+
 '        <link rel="stylesheet" href="assets/css/style1.min.css">'+
